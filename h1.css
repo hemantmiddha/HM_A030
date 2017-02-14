@@ -1,0 +1,73 @@
+body
+{ background-image:url("http://wallpapercave.com/wp/Zkc7mGk.jpg");
+   background-attachment:fixed;
+}
+.fo
+{
+	font-size: 40px;
+	font-style: italic;
+	border: 2px solid white;
+	background-color: black;
+	color:white;
+}
+.hi
+{
+	color: #adadad;
+}
+.fo{
+	text-align: right;
+}
+.abc
+{
+/*	border: 1px solid black;
+	border-radius: 8px;*/
+	font-size: 20px;
+}
+#section1 img{
+	text-align: center;
+}
+a:link
+{
+	color: blue;
+	text-decoration: none;
+}
+a:visited
+{
+	color: green;
+	text-decoration: none;
+}
+a:hover
+{
+	color: white;
+	font-size: 25px;
+}
+section{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 992px){
+	section{
+		width: 30%;
+		float: left;
+		min-height: 300px;
+	}
+}
+@media (min-width:768px) and (max-width: 991px){
+	section{
+		width: 45%;
+		float: left;
+		min-height: 600px;
+	}
+	#section3{
+		width: 90%;
+	}
+}
+@media (max-width: 767px){
+	section{
+		width: 90%;
+		float: left;
+		min-height: 300px;
+	}
+}
