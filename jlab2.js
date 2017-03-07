@@ -1,4 +1,4 @@
-
+var count= 0;
 function sayHello () {
   var name =
    document.getElementById("name").value;
