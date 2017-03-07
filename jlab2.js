@@ -17,7 +17,8 @@ function sayHello () {
     if(count==0)
     { 
     title += " & Lovin' it!";
-      count++;}
+      count++;
+    }
     
     document
         .querySelector("h1")
