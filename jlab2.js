@@ -19,7 +19,6 @@ function sayHello () {
     title += " & Lovin' it!";
       count++;
     }
-    
     document
         .querySelector("h1")
         .textContent = title;
