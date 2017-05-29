@@ -1,0 +1,79 @@
+*{
+	color: white;
+}
+body
+{ background-image:url("https://3.bp.blogspot.com/-y-cEN-Ui7rs/UtJtIb74X8I/AAAAAAAAGdg/5i1zN81uZ0g/s1600/Plain-design-pattern-dark-background-image-HD-resolution-latest-pack.jpg");
+   background-attachment:fixed;
+}
+.fo
+{
+	font-size: 40px;
+	font-style: italic;
+	border: 2px solid white;
+	background-color: black;
+	color:white;
+}
+.hi
+{
+	color: #adadad;
+}
+.fo{
+	text-align: right;
+}
+.abc
+{
+/*	border: 1px solid black;
+	border-radius: 8px;*/
+	font-size: 20px;
+}
+#section1 img{
+	text-align: center;
+}
+a:link
+{
+	color: blue;
+	text-decoration: none;
+}
+a:visited
+{
+	color: green;
+	text-decoration: none;
+}
+a:hover
+{
+	color: white;
+	font-size: 25px;
+}
+section{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  left:auto;
+  right: auto;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 992px){
+	section{
+		width: 33.33%;
+		float: left;
+		min-height: 300px;
+	}
+}
+@media (min-width:768px) and (max-width: 991px){
+	section{
+		width: 50%;
+		float: left;
+		min-height: 600px;
+	}
+	#section3{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	section{
+		width: 100%;
+		float: left;
+		min-height: 300px;
+	}
+}
